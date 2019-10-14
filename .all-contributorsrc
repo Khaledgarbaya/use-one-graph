@@ -11,7 +11,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/1156093?v=4",
       "profile": "https://khaledgarbaya.net",
       "contributions": [
-        "code"
+        "code",
+        "doc"
       ]
     }
   ],
@@ -19,5 +20,6 @@
   "projectName": "use-one-graph",
   "projectOwner": "Khaledgarbaya",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "commitConvention": "none"
 }
