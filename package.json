@@ -1,6 +1,6 @@
 {
   "name": "use-one-graph",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "a simple way to add opengraph authentication to your react app",
   "main": "dist/index.js",
   "author": "Khaled Garbaya <kgarbaya@gmail.com>",
@@ -10,12 +10,17 @@
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "microbundle": "^0.11.0"
+    "microbundle": "^0.11.0",
+    "semantic-release": "^15.13.24"
   },
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "peerDependencies": {
     "react": "^16.10.2"
   },
@@ -27,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Khaledgarbaya/use-one-graph.git"
+    "url": "https://github.com/Khaledgarbaya/use-one-graph.git"
   }
 }
