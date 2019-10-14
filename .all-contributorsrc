@@ -14,6 +14,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "PlayMa256",
+      "name": "Matheus Gonçalves da Silva",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/831308?v=4",
+      "profile": "https://github.com/PlayMa256",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
