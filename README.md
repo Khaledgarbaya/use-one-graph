@@ -32,7 +32,22 @@ npm install use-one-graph
 
 * Twitter: [@khaled_garbaya](https://twitter.com/khaled_garbaya)
 * Github: [@Khaledgarbaya](https://github.com/Khaledgarbaya)
+## 🚀 Usage
 
+```js
+import React from "react"
+import { useOneGraphAuth } from "use-one-graph"
+
+const AuthContext = React.createContext()
+
+const AuthProvide = ({ children }) => {
+  const auth = useOneGraphAuth("twitter", process.env.GATSBY_OG_APP_ID)
+
+  return <AuthContext.Provider value={auth}>{children}</AuthContext.Provider>
+}
+
+export { AuthContext, AuthProvide }
+```
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Khaledgarbaya/use-one-graph/issues).
