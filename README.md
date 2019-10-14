@@ -1,5 +1,7 @@
 <h1 align="center">Welcome to use-one-graph 👋</h1>
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
+![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Khaledgarbaya/use-one-graph#readme" target="_blank">
