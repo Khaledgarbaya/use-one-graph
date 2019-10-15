@@ -6,7 +6,7 @@
   "author": "Khaled Garbaya <kgarbaya@gmail.com>",
   "license": "MIT",
   "source": "src/index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
